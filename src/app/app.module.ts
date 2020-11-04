@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ViewPdfComponent } from './view-pdf/view-pdf.component';
 import { LaunchPdfComponent } from './launch-pdf/launch-pdf.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PdfViewerModule
+    PdfViewerModule,
+    NgxExtendedPdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

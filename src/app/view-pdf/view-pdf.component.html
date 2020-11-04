@@ -1,5 +1,15 @@
-<pdf-viewer
+<!-- <pdf-viewer
 [src]="pdfSrc"
 [render-text]="true"
 style="display: block;"
-></pdf-viewer>
+></pdf-viewer> -->
+
+
+<ngx-extended-pdf-viewer
+  [src]="pdfSrc"
+  useBrowserLocale="true"
+  height="80vh"
+  [showDownloadButton]="false"
+  [showPrintButton]="false"
+  [showOpenFileButton]="false"
+></ngx-extended-pdf-viewer>
