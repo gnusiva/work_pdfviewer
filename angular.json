@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pdfViewer"
+    }
+  },
+  "defaultProject": "pdfViewer",
+  "cli": {
+    "analytics": "212e6633-57cb-46f4-a8b6-58a5da71bb83"
+  }
 }
