@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ViewPdfComponent implements OnInit {
 
+  pdfSrc;
+
   constructor() { }
 
   ngOnInit(): void {
+    const urlParams = new URLSearchParams(window.location.search);
+    const pdfParam = urlParams.get('pdf');
+    this.pdfSrc = pdfParam;
   }
 
 }
